@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# regenerable and large: rebuilt by analyse_entropy.py on first run
+entailment_cache*.json
+
+# raw HWiNFO logs live in the Zenodo archive, not here
+*.CSV

@@ -1,0 +1,40 @@
+{
+  "cell": "llama3.2_3b-instruct-q4_K_M__college__open",
+  "model": "llama3.2:3b-instruct-q4_K_M",
+  "tier": "college",
+  "mode": "open",
+  "items": 20,
+  "errors": 0,
+  "tokens_generated": 2536,
+  "t_start_epoch": 1790469287.4081705,
+  "t_end_epoch": 1790469602.209533,
+  "t_start_utc": "2026-09-27T00:34:47.408170+00:00",
+  "t_end_utc": "2026-09-27T00:40:02.209533+00:00",
+  "active_s": 314.801,
+  "s_per_item": 15.7401,
+  "open_samples": 5,
+  "seed": 20260921,
+  "warmup_items": 3,
+  "energy": {
+    "source": "HWiNFO",
+    "cpu_gross": {
+      "joules": 4078.816,
+      "integrated_s": 314.801,
+      "window_s": 314.801,
+      "coverage": 1.0,
+      "mean_w": 12.957,
+      "min_w": 6.79,
+      "max_w": 13.166,
+      "n_samples": 159
+    },
+    "gpu_gross": null,
+    "idle_cpu_w": 3.218,
+    "idle_gpu_w": null,
+    "net_cpu_j": 3065.786,
+    "net_gpu_j": null,
+    "net_total_j": 3065.786,
+    "j_per_item": 153.2893,
+    "j_per_token": 1.208906,
+    "gross_total_j": 4078.816
+  }
+}

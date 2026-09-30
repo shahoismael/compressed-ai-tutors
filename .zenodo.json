@@ -1,0 +1,29 @@
+{
+  "title": "compressed-ai-tutors: fidelity, confident error and inference energy under LLM compression",
+  "description": "<p>Code and results for a study measuring answer fidelity, confident error, semantic entropy and measured inference energy across three open-weight model families at three quantisation levels. 2,922 fixed items across a school-to-expert difficulty gradient, 53,298 inferences on a single CPU. Accuracy changed by at most 2.8 percentage points and never significantly, while 5.7 to 20.3 per cent of individual answers changed at 4-bit. None of the eighteen compressed configurations satisfied a deployability rule fixed before any model ran.</p><p>No benchmark item text is redistributed; the item manifest carries identifiers only.</p>",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Ismael, Shaho",
+      "affiliation": "Salahaddin University, Erbil"
+    }
+  ],
+  "keywords": [
+    "large language models",
+    "quantisation",
+    "Green AI",
+    "automated assessment",
+    "semantic entropy",
+    "model compression",
+    "hallucination"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/shahoismael/compressed-ai-tutors",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

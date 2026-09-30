@@ -1,0 +1,40 @@
+{
+  "cell": "qwen2.5_3b-instruct-fp16__expert__probe",
+  "model": "qwen2.5:3b-instruct-fp16",
+  "tier": "expert",
+  "mode": "probe",
+  "items": 60,
+  "errors": 0,
+  "tokens_generated": 129,
+  "t_start_epoch": 1790466681.0392811,
+  "t_end_epoch": 1790466995.3703115,
+  "t_start_utc": "2026-09-26T23:51:21.039281+00:00",
+  "t_end_utc": "2026-09-26T23:56:35.370311+00:00",
+  "active_s": 314.331,
+  "s_per_item": 5.2389,
+  "open_samples": null,
+  "seed": 20260921,
+  "warmup_items": 3,
+  "energy": {
+    "source": "HWiNFO",
+    "cpu_gross": {
+      "joules": 4069.154,
+      "integrated_s": 314.331,
+      "window_s": 314.331,
+      "coverage": 1.0,
+      "mean_w": 12.945,
+      "min_w": 7.285,
+      "max_w": 13.979,
+      "n_samples": 158
+    },
+    "gpu_gross": null,
+    "idle_cpu_w": 3.218,
+    "idle_gpu_w": null,
+    "net_cpu_j": 3057.637,
+    "net_gpu_j": null,
+    "net_total_j": 3057.637,
+    "j_per_item": 50.9606,
+    "j_per_token": 23.702612,
+    "gross_total_j": 4069.154
+  }
+}

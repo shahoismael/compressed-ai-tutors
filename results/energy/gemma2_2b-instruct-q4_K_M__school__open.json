@@ -1,0 +1,40 @@
+{
+  "cell": "gemma2_2b-instruct-q4_K_M__school__open",
+  "model": "gemma2:2b-instruct-q4_K_M",
+  "tier": "school",
+  "mode": "open",
+  "items": 20,
+  "errors": 0,
+  "tokens_generated": 1868,
+  "t_start_epoch": 1790555114.1721058,
+  "t_end_epoch": 1790555364.743209,
+  "t_start_utc": "2026-09-28T00:25:14.172106+00:00",
+  "t_end_utc": "2026-09-28T00:29:24.743209+00:00",
+  "active_s": 250.571,
+  "s_per_item": 12.5286,
+  "open_samples": 5,
+  "seed": 20260921,
+  "warmup_items": 3,
+  "energy": {
+    "source": "HWiNFO",
+    "cpu_gross": {
+      "joules": 3239.316,
+      "integrated_s": 250.571,
+      "window_s": 250.571,
+      "coverage": 1.0,
+      "mean_w": 12.928,
+      "min_w": 8.207,
+      "max_w": 13.682,
+      "n_samples": 126
+    },
+    "gpu_gross": null,
+    "idle_cpu_w": 3.218,
+    "idle_gpu_w": null,
+    "net_cpu_j": 2432.979,
+    "net_gpu_j": null,
+    "net_total_j": 2432.979,
+    "j_per_item": 121.6489,
+    "j_per_token": 1.302451,
+    "gross_total_j": 3239.316
+  }
+}

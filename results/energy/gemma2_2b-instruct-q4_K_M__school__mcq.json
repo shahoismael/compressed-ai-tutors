@@ -1,0 +1,40 @@
+{
+  "cell": "gemma2_2b-instruct-q4_K_M__school__mcq",
+  "model": "gemma2:2b-instruct-q4_K_M",
+  "tier": "school",
+  "mode": "mcq",
+  "items": 100,
+  "errors": 0,
+  "tokens_generated": 400,
+  "t_start_epoch": 1790467740.8412917,
+  "t_end_epoch": 1790468021.305672,
+  "t_start_utc": "2026-09-27T00:09:00.841292+00:00",
+  "t_end_utc": "2026-09-27T00:13:41.305672+00:00",
+  "active_s": 280.464,
+  "s_per_item": 2.8046,
+  "open_samples": null,
+  "seed": 20260921,
+  "warmup_items": 3,
+  "energy": {
+    "source": "HWiNFO",
+    "cpu_gross": {
+      "joules": 3620.763,
+      "integrated_s": 280.464,
+      "window_s": 280.464,
+      "coverage": 1.0,
+      "mean_w": 12.91,
+      "min_w": 8.392,
+      "max_w": 13.4,
+      "n_samples": 141
+    },
+    "gpu_gross": null,
+    "idle_cpu_w": 3.218,
+    "idle_gpu_w": null,
+    "net_cpu_j": 2718.23,
+    "net_gpu_j": null,
+    "net_total_j": 2718.23,
+    "j_per_item": 27.1823,
+    "j_per_token": 6.795575,
+    "gross_total_j": 3620.763
+  }
+}

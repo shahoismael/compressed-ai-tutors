@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "compressed-ai-tutors: fidelity, confident error and inference energy under LLM compression"
+abstract: >-
+  Code and results for a study measuring answer fidelity, confident error,
+  semantic entropy and measured inference energy across three open-weight
+  model families at three quantisation levels, on 2,922 fixed items spanning
+  a school-to-expert difficulty gradient.
+type: software
+authors:
+  - family-names: Ismael
+    given-names: Shaho
+    affiliation: "Salahaddin University, Erbil"
+repository-code: "https://github.com/shahoismael/compressed-ai-tutors"
+license: MIT
+keywords:
+  - large language models
+  - quantisation
+  - Green AI
+  - automated assessment
+  - semantic entropy

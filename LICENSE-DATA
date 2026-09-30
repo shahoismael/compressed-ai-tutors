@@ -1,0 +1,29 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Applies to the contents of data/, results/, tables/ and figures/ in this
+repository: model outputs, aggregated results, tables and figures produced by
+this study.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate if changes were made.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+WHAT THIS LICENCE DOES NOT COVER
+
+No benchmark item text is redistributed here. data/item_manifest.csv carries
+identifiers only (item_id, source dataset, source item key, tier, subset
+membership and answer index); question stems and answer options are not
+included, and neither are the reference answer strings, which were removed
+from data/raw/ before publication.
+
+The source benchmarks keep their own licences and must be obtained from their
+original distributors:
+
+  ARC-Challenge   CC BY-SA 4.0   https://allenai.org/data/arc
+  MMLU            MIT            https://github.com/hendrycks/test
+  ChemBench       MIT            https://github.com/lamalab-org/chem-bench
+
+code/build_items.py reconstructs the exact item set from those sources using
+the identifiers in data/item_manifest.csv and the seed recorded in the paper.

@@ -1,0 +1,2367 @@
+{
+  "generated_utc": "2026-09-29T22:52:54.518748+00:00",
+  "seed": 20260921,
+  "bootstrap_resamples": 10000,
+  "rule": {
+    "accuracy_tolerance_pp": 3.0,
+    "energy_ceiling": 0.6,
+    "criterion4_source": "analyse_entropy.py (pending)"
+  },
+  "accuracy_fidelity": [
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.8,
+      "accuracy_ci": [
+        0.775,
+        0.824
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.8,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.806,
+      "accuracy_ci": [
+        0.781,
+        0.83
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.8,
+      "delta_pp": 0.6,
+      "delta_ci_pp": [
+        0.1,
+        1.2
+      ],
+      "mcnemar_b": 1,
+      "mcnemar_c": 7,
+      "n_discordant": 8,
+      "p_raw": 0.070312,
+      "loyalty": 0.988,
+      "loyalty_ci": [
+        0.981,
+        0.994
+      ],
+      "dropped_rows": 0,
+      "p_holm": 0.421875,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.8,
+      "accuracy_ci": [
+        0.775,
+        0.825
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.8,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        -1.4,
+        1.5
+      ],
+      "mcnemar_b": 28,
+      "mcnemar_c": 28,
+      "n_discordant": 56,
+      "p_raw": 1.0,
+      "loyalty": 0.924,
+      "loyalty_ci": [
+        0.907,
+        0.94
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.54013,
+      "accuracy_ci": [
+        0.50759,
+        0.57267
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.54013,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.53905,
+      "accuracy_ci": [
+        0.50759,
+        0.57158
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.54013,
+      "delta_pp": -0.108,
+      "delta_ci_pp": [
+        -0.976,
+        0.759
+      ],
+      "mcnemar_b": 9,
+      "mcnemar_c": 8,
+      "n_discordant": 17,
+      "p_raw": 1.0,
+      "loyalty": 0.96855,
+      "loyalty_ci": [
+        0.95662,
+        0.97939
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.51193,
+      "accuracy_ci": [
+        0.47939,
+        0.54447
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.54013,
+      "delta_pp": -2.82,
+      "delta_ci_pp": [
+        -5.206,
+        -0.542
+      ],
+      "mcnemar_b": 75,
+      "mcnemar_c": 49,
+      "n_discordant": 124,
+      "p_raw": 0.02437,
+      "loyalty": 0.79718,
+      "loyalty_ci": [
+        0.77115,
+        0.82321
+      ],
+      "dropped_rows": 0,
+      "p_holm": 0.146221,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.534,
+      "accuracy_ci": [
+        0.503,
+        0.565
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.534,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.532,
+      "accuracy_ci": [
+        0.501,
+        0.563
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.534,
+      "delta_pp": -0.2,
+      "delta_ci_pp": [
+        -0.9,
+        0.5
+      ],
+      "mcnemar_b": 8,
+      "mcnemar_c": 6,
+      "n_discordant": 14,
+      "p_raw": 0.790527,
+      "loyalty": 0.976,
+      "loyalty_ci": [
+        0.966,
+        0.985
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.512,
+      "accuracy_ci": [
+        0.481,
+        0.544
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.534,
+      "delta_pp": -2.2,
+      "delta_ci_pp": [
+        -4.4,
+        0.0
+      ],
+      "mcnemar_b": 71,
+      "mcnemar_c": 49,
+      "n_discordant": 120,
+      "p_raw": 0.05478,
+      "loyalty": 0.827,
+      "loyalty_ci": [
+        0.803,
+        0.85
+      ],
+      "dropped_rows": 0,
+      "p_holm": 0.328679,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.735,
+      "accuracy_ci": [
+        0.707,
+        0.761
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.735,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.737,
+      "accuracy_ci": [
+        0.709,
+        0.763
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.735,
+      "delta_pp": 0.2,
+      "delta_ci_pp": [
+        -0.3,
+        0.8
+      ],
+      "mcnemar_b": 3,
+      "mcnemar_c": 5,
+      "n_discordant": 8,
+      "p_raw": 0.726562,
+      "loyalty": 0.99,
+      "loyalty_ci": [
+        0.983,
+        0.996
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.726,
+      "accuracy_ci": [
+        0.698,
+        0.753
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.735,
+      "delta_pp": -0.9,
+      "delta_ci_pp": [
+        -2.4,
+        0.6
+      ],
+      "mcnemar_b": 33,
+      "mcnemar_c": 24,
+      "n_discordant": 57,
+      "p_raw": 0.289244,
+      "loyalty": 0.918,
+      "loyalty_ci": [
+        0.901,
+        0.935
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.47614,
+      "accuracy_ci": [
+        0.44469,
+        0.50868
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.47614,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.48048,
+      "accuracy_ci": [
+        0.44902,
+        0.51302
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.47614,
+      "delta_pp": 0.434,
+      "delta_ci_pp": [
+        -0.325,
+        1.193
+      ],
+      "mcnemar_b": 4,
+      "mcnemar_c": 8,
+      "n_discordant": 12,
+      "p_raw": 0.387695,
+      "loyalty": 0.97831,
+      "loyalty_ci": [
+        0.96855,
+        0.98698
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.46638,
+      "accuracy_ci": [
+        0.43384,
+        0.49892
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.47614,
+      "delta_pp": -0.976,
+      "delta_ci_pp": [
+        -2.82,
+        0.868
+      ],
+      "mcnemar_b": 43,
+      "mcnemar_c": 34,
+      "n_discordant": 77,
+      "p_raw": 0.362032,
+      "loyalty": 0.85575,
+      "loyalty_ci": [
+        0.83297,
+        0.87744
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.485,
+      "accuracy_ci": [
+        0.454,
+        0.516
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.485,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.488,
+      "accuracy_ci": [
+        0.457,
+        0.519
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.485,
+      "delta_pp": 0.3,
+      "delta_ci_pp": [
+        -0.1,
+        0.8
+      ],
+      "mcnemar_b": 1,
+      "mcnemar_c": 4,
+      "n_discordant": 5,
+      "p_raw": 0.375,
+      "loyalty": 0.984,
+      "loyalty_ci": [
+        0.976,
+        0.991
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.479,
+      "accuracy_ci": [
+        0.449,
+        0.51
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.485,
+      "delta_pp": -0.6,
+      "delta_ci_pp": [
+        -2.4,
+        1.2
+      ],
+      "mcnemar_b": 44,
+      "mcnemar_c": 38,
+      "n_discordant": 82,
+      "p_raw": 0.581114,
+      "loyalty": 0.866,
+      "loyalty_ci": [
+        0.845,
+        0.887
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.759,
+      "accuracy_ci": [
+        0.732,
+        0.785
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.759,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.758,
+      "accuracy_ci": [
+        0.731,
+        0.784
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.759,
+      "delta_pp": -0.1,
+      "delta_ci_pp": [
+        -0.6,
+        0.4
+      ],
+      "mcnemar_b": 4,
+      "mcnemar_c": 3,
+      "n_discordant": 7,
+      "p_raw": 1.0,
+      "loyalty": 0.99,
+      "loyalty_ci": [
+        0.984,
+        0.996
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.749,
+      "accuracy_ci": [
+        0.722,
+        0.776
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.759,
+      "delta_pp": -1.0,
+      "delta_ci_pp": [
+        -2.4,
+        0.3
+      ],
+      "mcnemar_b": 29,
+      "mcnemar_c": 19,
+      "n_discordant": 48,
+      "p_raw": 0.193413,
+      "loyalty": 0.943,
+      "loyalty_ci": [
+        0.928,
+        0.957
+      ],
+      "dropped_rows": 0,
+      "p_holm": 0.967063,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.46095,
+      "accuracy_ci": [
+        0.4295,
+        0.49241
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.46095,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.46529,
+      "accuracy_ci": [
+        0.43275,
+        0.49675
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.46095,
+      "delta_pp": 0.434,
+      "delta_ci_pp": [
+        -0.108,
+        1.085
+      ],
+      "mcnemar_b": 2,
+      "mcnemar_c": 6,
+      "n_discordant": 8,
+      "p_raw": 0.289062,
+      "loyalty": 0.98265,
+      "loyalty_ci": [
+        0.97397,
+        0.99024
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "n_items": 922,
+      "n_shared": 922,
+      "accuracy": 0.4436,
+      "accuracy_ci": [
+        0.41106,
+        0.47505
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.46095,
+      "delta_pp": -1.735,
+      "delta_ci_pp": [
+        -3.362,
+        -0.108
+      ],
+      "mcnemar_b": 38,
+      "mcnemar_c": 22,
+      "n_discordant": 60,
+      "p_raw": 0.051894,
+      "loyalty": 0.89371,
+      "loyalty_ci": [
+        0.8731,
+        0.91323
+      ],
+      "dropped_rows": 0,
+      "p_holm": 0.259469,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.485,
+      "accuracy_ci": [
+        0.454,
+        0.516
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.485,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "mcnemar_b": 0,
+      "mcnemar_c": 0,
+      "n_discordant": 0,
+      "p_raw": null,
+      "loyalty": null,
+      "loyalty_ci": null,
+      "dropped_rows": 0,
+      "p_holm": null,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.487,
+      "accuracy_ci": [
+        0.455,
+        0.518
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.485,
+      "delta_pp": 0.2,
+      "delta_ci_pp": [
+        -0.2,
+        0.6
+      ],
+      "mcnemar_b": 1,
+      "mcnemar_c": 3,
+      "n_discordant": 4,
+      "p_raw": 0.625,
+      "loyalty": 0.993,
+      "loyalty_ci": [
+        0.988,
+        0.998
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "n_items": 1000,
+      "n_shared": 1000,
+      "accuracy": 0.481,
+      "accuracy_ci": [
+        0.45,
+        0.512
+      ],
+      "parse_rate": 1.0,
+      "baseline_accuracy": 0.485,
+      "delta_pp": -0.4,
+      "delta_ci_pp": [
+        -2.1,
+        1.2
+      ],
+      "mcnemar_b": 36,
+      "mcnemar_c": 32,
+      "n_discordant": 68,
+      "p_raw": 0.716301,
+      "loyalty": 0.896,
+      "loyalty_ci": [
+        0.877,
+        0.914
+      ],
+      "dropped_rows": 0,
+      "p_holm": 1.0,
+      "significant_05": false
+    }
+  ],
+  "hallucination": [
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.625,
+      "hallucination_ci": [
+        0.56,
+        0.69
+      ],
+      "abstention_rate": 0.365,
+      "baseline_rate": 0.625,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.59,
+      "hallucination_ci": [
+        0.52,
+        0.66
+      ],
+      "abstention_rate": 0.4,
+      "baseline_rate": 0.625,
+      "delta_pp": -3.5,
+      "delta_ci_pp": [
+        -6.0,
+        -1.0
+      ],
+      "p_raw": 0.015625,
+      "n_discordant": 7,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 0.0625
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.535,
+      "hallucination_ci": [
+        0.465,
+        0.605
+      ],
+      "abstention_rate": 0.46,
+      "baseline_rate": 0.625,
+      "delta_pp": -9.0,
+      "delta_ci_pp": [
+        -14.5,
+        -4.0
+      ],
+      "p_raw": 0.001431,
+      "n_discordant": 30,
+      "criterion2_pass": true,
+      "dropped_rows": 0,
+      "p_holm": 0.007874
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.805,
+      "hallucination_ci": [
+        0.745,
+        0.86
+      ],
+      "abstention_rate": 0.18,
+      "baseline_rate": 0.805,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.815,
+      "hallucination_ci": [
+        0.76,
+        0.87
+      ],
+      "abstention_rate": 0.175,
+      "baseline_rate": 0.805,
+      "delta_pp": 1.0,
+      "delta_ci_pp": [
+        0.0,
+        2.5
+      ],
+      "p_raw": 0.5,
+      "n_discordant": 2,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.74,
+      "hallucination_ci": [
+        0.68,
+        0.8
+      ],
+      "abstention_rate": 0.25,
+      "baseline_rate": 0.805,
+      "delta_pp": -6.5,
+      "delta_ci_pp": [
+        -12.5,
+        -1.0
+      ],
+      "p_raw": 0.04096,
+      "n_discordant": 35,
+      "criterion2_pass": true,
+      "dropped_rows": 0,
+      "p_holm": 0.245758
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.79,
+      "hallucination_ci": [
+        0.73,
+        0.845
+      ],
+      "abstention_rate": 0.205,
+      "baseline_rate": 0.79,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.785,
+      "hallucination_ci": [
+        0.725,
+        0.84
+      ],
+      "abstention_rate": 0.21,
+      "baseline_rate": 0.79,
+      "delta_pp": -0.5,
+      "delta_ci_pp": [
+        -3.5,
+        2.5
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 9,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.66,
+      "hallucination_ci": [
+        0.595,
+        0.725
+      ],
+      "abstention_rate": 0.34,
+      "baseline_rate": 0.79,
+      "delta_pp": -13.0,
+      "delta_ci_pp": [
+        -19.5,
+        -7.0
+      ],
+      "p_raw": 0.000106,
+      "n_discordant": 44,
+      "criterion2_pass": true,
+      "dropped_rows": 0,
+      "p_holm": 0.000636
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.86,
+      "hallucination_ci": [
+        0.81,
+        0.905
+      ],
+      "abstention_rate": 0.135,
+      "baseline_rate": 0.86,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.87,
+      "hallucination_ci": [
+        0.82,
+        0.915
+      ],
+      "abstention_rate": 0.125,
+      "baseline_rate": 0.86,
+      "delta_pp": 1.0,
+      "delta_ci_pp": [
+        0.0,
+        2.5
+      ],
+      "p_raw": 0.5,
+      "n_discordant": 2,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.93,
+      "hallucination_ci": [
+        0.895,
+        0.965
+      ],
+      "abstention_rate": 0.07,
+      "baseline_rate": 0.86,
+      "delta_pp": 7.0,
+      "delta_ci_pp": [
+        3.0,
+        11.0
+      ],
+      "p_raw": 0.001312,
+      "n_discordant": 18,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 0.007874
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.95,
+      "hallucination_ci": [
+        0.92,
+        0.98
+      ],
+      "abstention_rate": 0.05,
+      "baseline_rate": 0.95,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.955,
+      "hallucination_ci": [
+        0.925,
+        0.98
+      ],
+      "abstention_rate": 0.045,
+      "baseline_rate": 0.95,
+      "delta_pp": 0.5,
+      "delta_ci_pp": [
+        0.0,
+        1.5
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 1,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.975,
+      "hallucination_ci": [
+        0.95,
+        0.995
+      ],
+      "abstention_rate": 0.025,
+      "baseline_rate": 0.95,
+      "delta_pp": 2.5,
+      "delta_ci_pp": [
+        0.0,
+        5.5
+      ],
+      "p_raw": 0.125,
+      "n_discordant": 7,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 0.625
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.935,
+      "hallucination_ci": [
+        0.9,
+        0.97
+      ],
+      "abstention_rate": 0.065,
+      "baseline_rate": 0.935,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.94,
+      "hallucination_ci": [
+        0.905,
+        0.97
+      ],
+      "abstention_rate": 0.06,
+      "baseline_rate": 0.935,
+      "delta_pp": 0.5,
+      "delta_ci_pp": [
+        0.0,
+        1.5
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 1,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.965,
+      "hallucination_ci": [
+        0.935,
+        0.99
+      ],
+      "abstention_rate": 0.03,
+      "baseline_rate": 0.935,
+      "delta_pp": 3.0,
+      "delta_ci_pp": [
+        1.0,
+        5.5
+      ],
+      "p_raw": 0.03125,
+      "n_discordant": 6,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 0.15625
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.985,
+      "hallucination_ci": [
+        0.965,
+        1.0
+      ],
+      "abstention_rate": 0.015,
+      "baseline_rate": 0.985,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.985,
+      "hallucination_ci": [
+        0.965,
+        1.0
+      ],
+      "abstention_rate": 0.015,
+      "baseline_rate": 0.985,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 0,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.955,
+      "hallucination_ci": [
+        0.925,
+        0.98
+      ],
+      "abstention_rate": 0.045,
+      "baseline_rate": 0.985,
+      "delta_pp": -3.0,
+      "delta_ci_pp": [
+        -6.0,
+        -0.5
+      ],
+      "p_raw": 0.070312,
+      "n_discordant": 8,
+      "criterion2_pass": true,
+      "dropped_rows": 0,
+      "p_holm": 0.210938
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.99,
+      "hallucination_ci": [
+        0.975,
+        1.0
+      ],
+      "abstention_rate": 0.01,
+      "baseline_rate": 0.99,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.99,
+      "hallucination_ci": [
+        0.975,
+        1.0
+      ],
+      "abstention_rate": 0.01,
+      "baseline_rate": 0.99,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 0,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.985,
+      "hallucination_ci": [
+        0.965,
+        1.0
+      ],
+      "abstention_rate": 0.015,
+      "baseline_rate": 0.99,
+      "delta_pp": -0.5,
+      "delta_ci_pp": [
+        -1.5,
+        0.0
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 1,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "n_items": 200,
+      "hallucination_rate": 0.94,
+      "hallucination_ci": [
+        0.905,
+        0.97
+      ],
+      "abstention_rate": 0.06,
+      "baseline_rate": 0.94,
+      "delta_pp": 0.0,
+      "delta_ci_pp": [
+        0.0,
+        0.0
+      ],
+      "p_raw": null,
+      "n_discordant": 0,
+      "criterion2_pass": null,
+      "dropped_rows": 0,
+      "p_holm": null
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "n_items": 200,
+      "hallucination_rate": 0.945,
+      "hallucination_ci": [
+        0.91,
+        0.975
+      ],
+      "abstention_rate": 0.055,
+      "baseline_rate": 0.94,
+      "delta_pp": 0.5,
+      "delta_ci_pp": [
+        0.0,
+        1.5
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 1,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "n_items": 200,
+      "hallucination_rate": 0.935,
+      "hallucination_ci": [
+        0.895,
+        0.965
+      ],
+      "abstention_rate": 0.065,
+      "baseline_rate": 0.94,
+      "delta_pp": -0.5,
+      "delta_ci_pp": [
+        -2.5,
+        1.0
+      ],
+      "p_raw": 1.0,
+      "n_discordant": 3,
+      "criterion2_pass": false,
+      "dropped_rows": 0,
+      "p_holm": 1.0
+    }
+  ],
+  "energy_rule": [
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "j_per_item_mcq": 39.2351,
+      "j_per_item_probe": 36.6396,
+      "j_per_item_open": 275.1651,
+      "j_per_token_mcq": 19.617545,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "j_per_item_mcq": 38.5395,
+      "j_per_item_probe": 36.2173,
+      "j_per_item_open": 167.7193,
+      "j_per_token_mcq": 19.269765,
+      "ratio_mcq": 0.9823,
+      "ratio_probe": 0.9885,
+      "ratio_open": 0.6095,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 25.03,
+      "j_per_item_probe": 21.7442,
+      "j_per_item_open": 112.5969,
+      "j_per_token_mcq": 12.514985,
+      "ratio_mcq": 0.6379,
+      "ratio_probe": 0.5935,
+      "ratio_open": 0.4092,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": true,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "j_per_item_mcq": 42.6091,
+      "j_per_item_probe": 41.0003,
+      "j_per_item_open": 288.204,
+      "j_per_token_mcq": 21.30454,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "j_per_item_mcq": 42.2427,
+      "j_per_item_probe": 39.3319,
+      "j_per_item_open": 161.0032,
+      "j_per_token_mcq": 21.121375,
+      "ratio_mcq": 0.9914,
+      "ratio_probe": 0.9593,
+      "ratio_open": 0.5586,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 25.488,
+      "j_per_item_probe": 24.6268,
+      "j_per_item_open": 107.3561,
+      "j_per_token_mcq": 12.743985,
+      "ratio_mcq": 0.5982,
+      "ratio_probe": 0.6006,
+      "ratio_open": 0.3725,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": true,
+      "criterion3_energy": true,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "j_per_item_mcq": 51.7779,
+      "j_per_item_probe": 50.9606,
+      "j_per_item_open": 362.5314,
+      "j_per_token_mcq": 25.88897,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "j_per_item_mcq": 51.933,
+      "j_per_item_probe": 49.3729,
+      "j_per_item_open": 200.2246,
+      "j_per_token_mcq": 25.96652,
+      "ratio_mcq": 1.003,
+      "ratio_probe": 0.9688,
+      "ratio_open": 0.5523,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": false
+    },
+    {
+      "family": "qwen2.5:3b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 31.0764,
+      "j_per_item_probe": 30.3863,
+      "j_per_item_open": 140.379,
+      "j_per_token_mcq": 15.53818,
+      "ratio_mcq": 0.6002,
+      "ratio_probe": 0.5963,
+      "ratio_open": 0.3872,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": true,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "j_per_item_mcq": 42.3192,
+      "j_per_item_probe": 36.5247,
+      "j_per_item_open": 413.4903,
+      "j_per_token_mcq": 21.159585,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "j_per_item_mcq": 39.9957,
+      "j_per_item_probe": 35.8698,
+      "j_per_item_open": 226.4509,
+      "j_per_token_mcq": 19.997855,
+      "ratio_mcq": 0.9451,
+      "ratio_probe": 0.9821,
+      "ratio_open": 0.5477,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 23.6421,
+      "j_per_item_probe": 21.9125,
+      "j_per_item_open": 150.9599,
+      "j_per_token_mcq": 11.821035,
+      "ratio_mcq": 0.5587,
+      "ratio_probe": 0.5999,
+      "ratio_open": 0.3651,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": true,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "j_per_item_mcq": 41.7675,
+      "j_per_item_probe": 40.3827,
+      "j_per_item_open": 417.2071,
+      "j_per_token_mcq": 20.88374,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "j_per_item_mcq": 42.4168,
+      "j_per_item_probe": 38.4964,
+      "j_per_item_open": 251.7497,
+      "j_per_token_mcq": 21.208385,
+      "ratio_mcq": 1.0155,
+      "ratio_probe": 0.9533,
+      "ratio_open": 0.6034,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 25.1738,
+      "j_per_item_probe": 23.8182,
+      "j_per_item_open": 153.2893,
+      "j_per_token_mcq": 12.586885,
+      "ratio_mcq": 0.6027,
+      "ratio_probe": 0.5898,
+      "ratio_open": 0.3674,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "j_per_item_mcq": 51.7802,
+      "j_per_item_probe": 54.6469,
+      "j_per_item_open": 557.3561,
+      "j_per_token_mcq": 25.890095,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "j_per_item_mcq": 51.8796,
+      "j_per_item_probe": 50.3678,
+      "j_per_item_open": 303.6621,
+      "j_per_token_mcq": 25.939795,
+      "ratio_mcq": 1.0019,
+      "ratio_probe": 0.9217,
+      "ratio_open": 0.5448,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": false
+    },
+    {
+      "family": "llama3.2:3b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 31.0959,
+      "j_per_item_probe": 33.1645,
+      "j_per_item_open": 194.6998,
+      "j_per_token_mcq": 15.470622,
+      "ratio_mcq": 0.6005,
+      "ratio_probe": 0.6069,
+      "ratio_open": 0.3493,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "fp16",
+      "j_per_item_mcq": 48.5782,
+      "j_per_item_probe": 52.3432,
+      "j_per_item_open": 258.8894,
+      "j_per_token_mcq": 12.144545,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "q8_0",
+      "j_per_item_mcq": 44.3005,
+      "j_per_item_probe": 49.8528,
+      "j_per_item_open": 169.082,
+      "j_per_token_mcq": 11.075133,
+      "ratio_mcq": 0.9119,
+      "ratio_probe": 0.9524,
+      "ratio_open": 0.6531,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "school",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 27.1823,
+      "j_per_item_probe": 30.356,
+      "j_per_item_open": 121.6489,
+      "j_per_token_mcq": 6.795575,
+      "ratio_mcq": 0.5596,
+      "ratio_probe": 0.5799,
+      "ratio_open": 0.4699,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": true,
+      "criterion3_energy": true,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "fp16",
+      "j_per_item_mcq": 49.7201,
+      "j_per_item_probe": 55.4689,
+      "j_per_item_open": 266.7084,
+      "j_per_token_mcq": 12.43002,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "q8_0",
+      "j_per_item_mcq": 46.4138,
+      "j_per_item_probe": 51.6454,
+      "j_per_item_open": 176.3281,
+      "j_per_token_mcq": 11.603453,
+      "ratio_mcq": 0.9335,
+      "ratio_probe": 0.9311,
+      "ratio_open": 0.6611,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": false,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "college",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 28.8881,
+      "j_per_item_probe": 32.4731,
+      "j_per_item_open": 117.1913,
+      "j_per_token_mcq": 7.222035,
+      "ratio_mcq": 0.581,
+      "ratio_probe": 0.5854,
+      "ratio_open": 0.4394,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": true,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "fp16",
+      "j_per_item_mcq": 58.3895,
+      "j_per_item_probe": 62.962,
+      "j_per_item_open": 279.8216,
+      "j_per_token_mcq": 14.597378,
+      "ratio_mcq": 1.0,
+      "ratio_probe": 1.0,
+      "ratio_open": 1.0,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": null,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "baseline",
+      "energy_difference_established": false
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "q8_0",
+      "j_per_item_mcq": 53.3484,
+      "j_per_item_probe": 59.8529,
+      "j_per_item_open": 172.0486,
+      "j_per_token_mcq": 13.337095,
+      "ratio_mcq": 0.9137,
+      "ratio_probe": 0.9506,
+      "ratio_open": 0.6149,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": false,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    },
+    {
+      "family": "gemma2:2b-instruct",
+      "tier": "expert",
+      "level": "q4_K_M",
+      "j_per_item_mcq": 32.9168,
+      "j_per_item_probe": 36.7673,
+      "j_per_item_open": 120.4112,
+      "j_per_token_mcq": 8.2292,
+      "ratio_mcq": 0.5637,
+      "ratio_probe": 0.584,
+      "ratio_open": 0.4303,
+      "criterion1_accuracy": true,
+      "criterion2_hallucination": false,
+      "criterion3_energy": true,
+      "criterion4_aurac": true,
+      "verdict": "FAIL",
+      "energy_difference_established": true
+    }
+  ],
+  "determinism": [
+    {
+      "model": "qwen2.5:3b-instruct-fp16",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-fp16",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-fp16",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-fp16",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-fp16",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-fp16",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q8_0",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q8_0",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q8_0",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q8_0",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q8_0",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q8_0",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 0.996,
+      "n_disagreements": 2
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "qwen2.5:3b-instruct-q4_K_M",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-fp16",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-fp16",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-fp16",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-fp16",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-fp16",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-fp16",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q8_0",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q8_0",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q8_0",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q8_0",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q8_0",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q8_0",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "llama3.2:3b-instruct-q4_K_M",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-fp16",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-fp16",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-fp16",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-fp16",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-fp16",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-fp16",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q8_0",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q8_0",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q8_0",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q8_0",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q8_0",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q8_0",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q4_K_M",
+      "tier": "school",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q4_K_M",
+      "tier": "school",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q4_K_M",
+      "tier": "college",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q4_K_M",
+      "tier": "college",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q4_K_M",
+      "tier": "expert",
+      "mode": "mcq",
+      "n_compared": 500,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    },
+    {
+      "model": "gemma2:2b-instruct-q4_K_M",
+      "tier": "expert",
+      "mode": "probe",
+      "n_compared": 200,
+      "agreement": 1.0,
+      "n_disagreements": 0
+    }
+  ]
+}

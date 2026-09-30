@@ -1,0 +1,75 @@
+{
+  "removed": 14,
+  "detail": [
+    {
+      "tier": "college",
+      "src_id": "college_chemistry:92",
+      "duplicate_of": "college:college_chemistry:5"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:16",
+      "duplicate_of": "college:college_physics:4"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:51",
+      "duplicate_of": "college:college_physics:3"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:58",
+      "duplicate_of": "college:college_physics:29"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:59",
+      "duplicate_of": "college:college_physics:2"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:66",
+      "duplicate_of": "college:college_physics:27"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:76",
+      "duplicate_of": "college:college_physics:72"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:77",
+      "duplicate_of": "college:college_physics:30"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:89",
+      "duplicate_of": "college:college_physics:84"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:90",
+      "duplicate_of": "college:college_physics:43"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:93",
+      "duplicate_of": "college:college_physics:42"
+    },
+    {
+      "tier": "college",
+      "src_id": "college_physics:97",
+      "duplicate_of": "college:college_physics:1"
+    },
+    {
+      "tier": "college",
+      "src_id": "conceptual_physics:108",
+      "duplicate_of": "college:conceptual_physics:11"
+    },
+    {
+      "tier": "college",
+      "src_id": "conceptual_physics:127",
+      "duplicate_of": "college:conceptual_physics:19"
+    }
+  ]
+}

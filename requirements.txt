@@ -1,0 +1,12 @@
+# pinned to what produced the results in this repository
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0
+matplotlib>=3.8
+transformers>=4.44
+torch>=2.2
+requests>=2.31
+
+# inference was served locally by Ollama 0.3.x, installed separately:
+# https://ollama.com  --  models: qwen2.5:3b-instruct, llama3.2:3b-instruct,
+# gemma2:2b-instruct, each at fp16, q8_0 and q4_K_M

@@ -1,0 +1,40 @@
+{
+  "cell": "llama3.2_3b-instruct-q4_K_M__school__mcq",
+  "model": "llama3.2:3b-instruct-q4_K_M",
+  "tier": "school",
+  "mode": "mcq",
+  "items": 100,
+  "errors": 0,
+  "tokens_generated": 200,
+  "t_start_epoch": 1790562535.2314386,
+  "t_end_epoch": 1790562779.4583964,
+  "t_start_utc": "2026-09-28T02:28:55.231439+00:00",
+  "t_end_utc": "2026-09-28T02:32:59.458396+00:00",
+  "active_s": 244.227,
+  "s_per_item": 2.4423,
+  "open_samples": null,
+  "seed": 20260921,
+  "warmup_items": 3,
+  "energy": {
+    "source": "HWiNFO",
+    "cpu_gross": {
+      "joules": 3150.129,
+      "integrated_s": 244.227,
+      "window_s": 244.227,
+      "coverage": 1.0,
+      "mean_w": 12.898,
+      "min_w": 4.332,
+      "max_w": 13.64,
+      "n_samples": 124
+    },
+    "gpu_gross": null,
+    "idle_cpu_w": 3.218,
+    "idle_gpu_w": null,
+    "net_cpu_j": 2364.207,
+    "net_gpu_j": null,
+    "net_total_j": 2364.207,
+    "j_per_item": 23.6421,
+    "j_per_token": 11.821035,
+    "gross_total_j": 3150.129
+  }
+}

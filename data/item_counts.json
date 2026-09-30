@@ -1,0 +1,38 @@
+{
+  "seed": 20260921,
+  "target_per_tier": 1000,
+  "mmlu_subsets": [
+    "college_chemistry",
+    "high_school_chemistry",
+    "electrical_engineering",
+    "college_physics",
+    "conceptual_physics",
+    "high_school_physics"
+  ],
+  "splits_used": {
+    "ARC-Challenge": "test",
+    "MMLU": "test",
+    "ChemBench": "whole benchmark (evaluation-only, no split)"
+  },
+  "counts": {
+    "school": {
+      "pool_after_dedup": 1172,
+      "sampled": 1000,
+      "probe": 200,
+      "open_ended": 200
+    },
+    "college": {
+      "pool_after_dedup": 922,
+      "sampled": 922,
+      "probe": 200,
+      "open_ended": 200
+    },
+    "expert": {
+      "pool_after_dedup": 1135,
+      "sampled": 1000,
+      "probe": 200,
+      "open_ended": 200
+    }
+  },
+  "total_items": 2922
+}

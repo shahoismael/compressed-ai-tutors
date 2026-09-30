@@ -1,0 +1,40 @@
+{
+  "cell": "gemma2_2b-instruct-fp16__college__mcq",
+  "model": "gemma2:2b-instruct-fp16",
+  "tier": "college",
+  "mode": "mcq",
+  "items": 100,
+  "errors": 0,
+  "tokens_generated": 400,
+  "t_start_epoch": 1790550499.301387,
+  "t_end_epoch": 1790551010.9664574,
+  "t_start_utc": "2026-09-27T23:08:19.301387+00:00",
+  "t_end_utc": "2026-09-27T23:16:50.966457+00:00",
+  "active_s": 511.665,
+  "s_per_item": 5.1167,
+  "open_samples": null,
+  "seed": 20260921,
+  "warmup_items": 3,
+  "energy": {
+    "source": "HWiNFO",
+    "cpu_gross": {
+      "joules": 6618.546,
+      "integrated_s": 511.665,
+      "window_s": 511.665,
+      "coverage": 1.0,
+      "mean_w": 12.935,
+      "min_w": 6.609,
+      "max_w": 13.887,
+      "n_samples": 257
+    },
+    "gpu_gross": null,
+    "idle_cpu_w": 3.218,
+    "idle_gpu_w": null,
+    "net_cpu_j": 4972.008,
+    "net_gpu_j": null,
+    "net_total_j": 4972.008,
+    "j_per_item": 49.7201,
+    "j_per_token": 12.43002,
+    "gross_total_j": 6618.546
+  }
+}
